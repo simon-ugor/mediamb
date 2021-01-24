@@ -1,0 +1,139 @@
+/* General stuff */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: regular;
+    src: url(./fonts/regular.ttf);
+}
+
+@font-face {
+    font-family: heading;
+    src: url(./fonts/medium.ttf);
+}
+
+/* Header */
+
+.header-main-div {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.logo-div {
+    padding-left: 3vw;
+}
+
+.menu-button-div {
+    padding-right: 3vw;
+}
+
+.menu-button {
+    width: 45px;
+    height: 45px;
+    background-image: url(./public/menu.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Content */
+
+.content-main-div {
+    position: absolute;
+    top: 12vh;
+    left: 0vw;
+    width: 100vw;
+    background-color:rgb(47,136,201);
+    color: white;
+}
+
+.heading-main {
+    margin-top: 3vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-family: heading;
+    font-size: 5vh;
+}
+
+.paragraf-main {
+    margin-top: 3vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    font-family: regular;
+    font-size: 3vh;
+}
+
+.map-div {
+    width: 100vw;
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.map{
+    border-radius: 10px;
+}
+
+.menu-div {
+    position: fixed;
+    right: 0;
+    top: 0vh;
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    color: gray;
+    text-align: center;
+    font-family: heading;
+    font-size: 7vw;
+    text-align: left;
+}
+
+.close-div {
+    text-align: right;
+    padding-right: 3vh;
+}
+
+.x-button {
+    font-family: regular;
+    font-size: 4vh;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    margin-top: 2vh;
+    color: gray;
+    margin-bottom: 2vh;
+}
+
+.list-element {
+    padding-left: 3vh;
+    margin-top: 3vh;
+    list-style-type: none;
+}
+
+/* Footer */
+
+.footer-main-div {
+    width: 100vw;
+    height: 12vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+    font-family: regular;
+}
