@@ -41,7 +41,7 @@ const kontakt = () => {
                     <ul className="menu-list">
                         <Link href="/"><li className="list-element">&#x2022; Domov</li></Link>
                         <Link href="kontakt"><li style={{color: "rgb(47,136,201)"}} className="list-element">&#x2022; Kontakt</li></Link>
-                        <Link href="/"><li className="list-element">&#x2022; Sídlo firmy</li></Link>
+                        <Link href="sidlofirmy"><li className="list-element">&#x2022; Sídlo firmy</li></Link>
                     </ul>
                 </div>
             </div>

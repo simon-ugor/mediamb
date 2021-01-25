@@ -88,6 +88,10 @@
     border-radius: 10px;
 }
 
+a {
+    display: none;
+}
+
 .menu-div {
     position: fixed;
     right: 0;
