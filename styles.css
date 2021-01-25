@@ -84,12 +84,12 @@
     margin-top: 3vh;
 }
 
-.map{
-    border-radius: 10px;
+a {
+    color: rgb(47,136,201);
 }
 
-a {
-    display: none;
+.map{
+    border-radius: 10px;
 }
 
 .menu-div {
