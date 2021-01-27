@@ -28,10 +28,12 @@ const kontakt = () => {
             </Head>
             <div className="content-main-div">
                 <div style={{display: main}}>
-                    <h1 className="heading-main">Kontakt</h1>
-                    <p className="paragraf-main">
-                        Kontaktovať nás môžete na: 
-                    </p>
+                    <div style={{height: "70vh"}}>
+                        <h1 className="heading-main">Kontakt</h1>
+                        <p className="paragraf-main">
+                            Kontaktovať nás môžete na: 
+                        </p>
+                    </div>
                     <Footer />
                 </div>
                 <div className="menu-div" style={{display: menu}}>

@@ -28,19 +28,19 @@ const kontakt = () => {
             </Head>
             <div className="content-main-div">
                 <div style={{display: main}}>
-                    <h1 className="heading-main">Základné informácie</h1>
-                    <p style={{textDecoration: "underline"}} className="paragraf-main">
-                        Obchodné meno: 
-                    </p>
-                    <p className="paragraf-main">MEDIAMB, s.r.o.</p>
-                    <p style={{textDecoration: "underline"}} className="paragraf-main">IČO:</p>
-                    <p className="paragraf-main">36 358 235</p>
-                    <p style={{textDecoration: "underline"}} className="paragraf-main">Deň zápisu:</p>
-                    <p className="paragraf-main">28.07.2006</p>
-                    <p style={{textDecoration: "underline"}} className="paragraf-main">Právna forma:</p>
-                    <p className="paragraf-main">Spoločnosť s ručením obmedzeným</p>
-                    <p style={{textDecoration: "underline"}} className="paragraf-main">Dátum aktualizácie údajov:</p>
-                    <p className="paragraf-main">25.01.2021</p>
+                    <div style={{height: "70vh"}}>
+                        <h1 className="heading-main">Základné informácie</h1>
+                        <p style={{textDecoration: "underline"}} className="paragraf-main">
+                            Obchodné meno: 
+                        </p>
+                        <nobr className="paragraf-main">MEDIAMB, s.r.o.</nobr>
+                        <p style={{textDecoration: "underline"}} className="paragraf-main">IČO:</p>
+                        <nobr className="paragraf-main">36 358 235</nobr>
+                        <p style={{textDecoration: "underline"}} className="paragraf-main">Deň zápisu:</p>
+                        <nobr className="paragraf-main">28.07.2006</nobr>
+                        <p style={{textDecoration: "underline"}} className="paragraf-main">Dátum aktualizácie údajov:</p>
+                        <nobr className="paragraf-main">25.01.2021</nobr>
+                    </div>
                     <Footer />
                 </div>
                 <div className="menu-div" style={{display: menu}}>
