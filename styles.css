@@ -141,3 +141,34 @@ a {
     margin-top: 3vh;
     font-family: regular;
 }
+
+.menu-desktop-div {
+    display: none;
+}
+
+/* Media queries */
+
+@media screen and (orientation: landscape) {
+    .menu-button-div {
+        display: none;
+    }
+
+    .menu-desktop-div {
+        height: 12vh;
+        display: flex;
+        flex-direction: row;
+        padding-right: 3vw;
+        font-family: heading;
+        font-size: 3.5vh;
+    }
+
+    .list-element {
+        list-style-type: none;
+        color: rgb(47,136,201);
+        cursor: pointer;
+    }
+
+    .map-div {
+        padding-left: 3vw;
+    }
+}

@@ -24,7 +24,7 @@ const kontakt = () => {
         <Layout func={test}>
             <Head>
                 <title>Kontakt</title>
-                <meta name="description" content="Kontakt na medicínsku firme MEDIAMB, s. r. o."></meta>
+                <meta name="description" content="Kontakt na medicínsku firmu MEDIAMB, s. r. o."></meta>
             </Head>
             <div className="content-main-div">
                 <div style={{display: main}}>
@@ -40,6 +40,7 @@ const kontakt = () => {
                     </div>
                     <ul className="menu-list">
                         <Link href="/"><li className="list-element">&#x2022; Domov</li></Link>
+                        <Link href="zakladneinformacie"><li className="list-element">&#x2022; Základné informácie</li></Link>
                         <Link href="kontakt"><li style={{color: "rgb(47,136,201)"}} className="list-element">&#x2022; Kontakt</li></Link>
                         <Link href="sidlofirmy"><li className="list-element">&#x2022; Sídlo firmy</li></Link>
                     </ul>
