@@ -42,7 +42,7 @@ const index = () => {
                     <h1 className="heading-main">Kde nás nájdete?</h1>
                     <p className="paragraf-main">Poliklinika Hlohovec, prvé poschodie vpravo</p>
                     <div className="map-div">
-                        <iframe className="map" width="93%" height="550px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=N%C3%A1bre%C5%BEie%20A.%20Hlinku%2027%20Hlohovec+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='https://www.symptoma.sk/sk/info/covid-19#info'>SARS-CoV-2</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=4e9e53e992ef2e9420131e9eecb5d595cdef4818'></script>
+                        <iframe className="map" width="93%" height="550px" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=N%C3%A1bre%C5%BEie%20A.%20Hlinku%2027%20Hlohovec+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='https://www.symptoma.sk/sk/info/covid-19#info'>SARS-CoV-2</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=4e9e53e992ef2e9420131e9eecb5d595cdef4818'></script>
                     </div>
                     <Footer />
                 </div>

@@ -34,7 +34,7 @@ const kontakt = () => {
                             Nábr. A Hlinku 27
                         </p>
                         <p className="paragraf-main">920 01&#160;&#160;Hlohovec</p>
-                        <p className="paragraf-main">tel. 033 794 12 20</p>
+                        <p className="paragraf-main">tel. <nobr>033 794 12 20</nobr></p>
                         <p className="paragraf-main">(volať v pondelok, v utorok alebo vo štvrtok doobeda)</p>
                     </div>
                     <Footer />
