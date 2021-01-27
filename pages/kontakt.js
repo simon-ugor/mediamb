@@ -31,8 +31,11 @@ const kontakt = () => {
                     <div style={{height: "70vh"}}>
                         <h1 className="heading-main">Kontakt</h1>
                         <p className="paragraf-main">
-                            Kontaktovať nás môžete na: 
+                            Nábr. A Hlinku 27
                         </p>
+                        <p className="paragraf-main">920 01&#160;&#160;Hlohovec</p>
+                        <p className="paragraf-main">tel. 033 794 12 20</p>
+                        <p className="paragraf-main">(volať v pondelok, v utorok alebo vo štvrtok doobeda)</p>
                     </div>
                     <Footer />
                 </div>
@@ -44,7 +47,6 @@ const kontakt = () => {
                         <Link href="/"><li className="list-element">&#x2022; Domov</li></Link>
                         <Link href="zakladneinformacie"><li className="list-element">&#x2022; Základné informácie</li></Link>
                         <Link href="kontakt"><li style={{color: "rgb(47,136,201)"}} className="list-element">&#x2022; Kontakt</li></Link>
-                        <Link href="sidlofirmy"><li className="list-element">&#x2022; Sídlo firmy</li></Link>
                     </ul>
                 </div>
             </div>
