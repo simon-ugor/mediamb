@@ -33,7 +33,7 @@ const index = () => {
                         Mediamb, s. r. o. je medicínska spoločnosť
                         s ambulanciou v Hlohovci. Sme ambulancia chirurgie
                         a úrazovej chirurgie (traumatológie). Zdravotnú
-                        starostlivosť u nás zabezpečujú lekári, ktorí zároveň pracujú
+                        starostlivosť u nás zabezpečujú lekári s dlhoročnou praxou, ktorí zároveň pracujú
                         a operujú vo FN Trnava na klinike ortopédie a úrazovej
                         chirurgie. Poskytujeme komplexnú starostlivosť o úrazy,
                         či už ambulatne alebo operačne v nemocnici. Naša starostlivosť
