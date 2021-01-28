@@ -24,7 +24,7 @@ const index = () => {
         <Layout func={test}>
             <Head>
                 <title>MEDIAMB, s. r. o.</title>
-                <meta name="description" content="Informácie o medicínskej firme MEDIAMB, s. r. o."></meta>
+                <meta name="description" content="Mediamb, s. r. o. je medicínska spoločnosť s ambulanciou v Hlohovci. Sme ambulancia chirurgie a úrazovej chirurgie (traumatológie)."></meta>
             </Head>
             <div className="content-main-div">
                 <div style={{display: main}}>

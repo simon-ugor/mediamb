@@ -21,9 +21,9 @@ const Header = (props) => {
                 <button onClick={handleClick} className="menu-button"></button>
             </div>
             <div className="menu-desktop-div">
-                <Link href="/"><li className="list-element">&#x2022; Domov</li></Link>
-                <Link href="zakladneinformacie"><li className="list-element">&#x2022; Základné informácie</li></Link>
-                <Link href="kontakt"><li className="list-element">&#x2022; Kontakt</li></Link>
+                <Link href="/"><a className="list-element">&#x2022; Domov</a></Link>
+                <Link href="zakladneinformacie"><a className="list-element">&#x2022; Základné informácie</a></Link>
+                <Link href="kontakt"><a className="list-element">&#x2022; Kontakt</a></Link>
             </div>
         </div>
     )
